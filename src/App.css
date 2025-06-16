@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#root {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+li {
+  list-style: none;
+  margin: 3px 10%;
+  background-color: #FFFDD0;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+  width: 250px;
+}
+
+.mini-header {
+  height: 25px;
+  padding: 10px 0;
+  background-color: rgb(226, 195, 147);
+  text-align: center;
+  border-radius: 10px;
+  width: 93%;
+  margin: 0;
+}
+
+.correct {
+  background-color: rgb(191, 116, 191);
+}
+
+.wrong {
+  background-color: rgb(219, 93, 93);
+}
+
+.answer-space {
+  background-color: rgb(226, 195, 147);
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: rgba(138, 98, 12, 0.942);
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.button.newdrink {
+  width: auto;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.title-container {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.drink-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
